@@ -1,0 +1,82 @@
+/* Optional: Makes the sample page fill the window. */
+/*used with permission from:"https://www.telerik.com/forums/change-the-colour-of-the-selected-tab-and-the-font"*/
+
+#map, .km-scroll-container {
+    height: 100%;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    padding: 10%;
+
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#calcRoute {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family:sans-serif;
+    padding: 1.5em;
+    text-align: center;
+}
+
+
+/*
+#stopWatch {
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+*/
+
+.footer, #calcRoute:hover {
+    background-color: #3109d0;
+    color: white;
+}
+
+
+
+
+#mapNav {
+    font-size: 30px;
+    
+}
+
+
+.km-text {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rebeccapurple;
+}
+
+
+/*
+.km-footer {
+    height: 30px;
+    align-content: center;
+     background-color: blue;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+*/
+
+
+.km-icon, .km-home {
+    color: white;
+}
+
+
+
+#map-canvas {
+    padding-top: 500px;
+    height: 80vh;
+}
